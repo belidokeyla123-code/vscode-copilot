@@ -1,3 +1,37 @@
-_cache/
-mcp-servers/
-.claude/skills/sync-copilot-instructions/
+﻿# Environment variables (NEVER commit tokens!)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Caches
+.cache/
+__pycache__/
+*.pyc
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~
